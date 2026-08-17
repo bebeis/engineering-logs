@@ -17,8 +17,10 @@
 - 반복 조회 비용을 줄이기 위해 Redis 캐시를 적용합니다.
 - 깊은 페이지 조회 비용을 줄이기 위해 커서 기반 페이지네이션을 적용합니다.
 
-## 코드
+## 버전별 코드
 
-- [`code/`](./code/): 글에서 설명한 문제 해결과 직접 관련된 코드
+- [`v1-offset-pagination/`](./v1-offset-pagination/): Offset 기반 페이지네이션
+- [`v2-redis-cache/`](./v2-redis-cache/): 반복 조회 비용을 줄이기 위한 Redis 캐시 적용
+- [`v3-cursor-pagination/`](./v3-cursor-pagination/): 깊은 페이지 조회 비용을 줄이는 커서 기반 페이지네이션
 
 구체적인 측정 조건과 결과는 관련 글에서 확인할 수 있습니다.
