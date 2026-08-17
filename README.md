@@ -10,7 +10,7 @@
 
 | 프로젝트 | 문제 해결 사례 |
 | --- | --- |
-| [Cluverse](./cluverse/) | [게시글 목록 조회 설계 및 개선](./cluverse/post-list-query-optimization/)<br>[게시글 조회수 DB 동시성 및 성능 개선](./cluverse/post-view-count-db-optimization/)<br>[게시글 조회수 Redis 집계와 전체 카운터 설계](./cluverse/post-view-count-redis-counter/) |
+| [Cluverse](./cluverse/) | [게시글 목록 조회 설계 및 개선](./cluverse/post-list-query-optimization/)<br>[게시글 조회수 DB 동시성 및 성능 개선](./cluverse/post-view-count-db-optimization/)<br>[게시글 조회수 Redis 집계와 전체 카운터 설계](./cluverse/post-view-count-redis-counter/)<br>[로컬맵 외부 장소 검증과 트랜잭션 분리](./cluverse/local-map-async-place-verification/) |
 
 ## 디렉터리 구조
 
