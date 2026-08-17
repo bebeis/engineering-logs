@@ -1,0 +1,12 @@
+package cluverse.post.repository.dto;
+
+import java.util.List;
+
+public record PostIdSlice(
+        List<Long> postIds,
+        boolean hasNext
+) {
+    public PostIdSlice {
+        postIds = List.copyOf(postIds);
+    }
+}
