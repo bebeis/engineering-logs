@@ -10,7 +10,7 @@
 
 | 프로젝트 | 문제 해결 사례 |
 | --- | --- |
-| [Cluverse](./cluverse/) | [게시글 목록 조회 설계 및 개선](./cluverse/post-list-query-optimization/)<br>[게시글 조회수 DB 동시성 및 성능 개선](./cluverse/post-view-count-db-optimization/)<br>[게시글 조회수 Redis 집계와 전체 카운터 설계](./cluverse/post-view-count-redis-counter/)<br>[게시판별 기준의 준실시간 인기글 승격](./cluverse/board-aware-popular-post-promotion/)<br>[로컬맵 외부 장소 검증과 트랜잭션 분리](./cluverse/local-map-async-place-verification/)<br>[이미지 처리 병렬화와 DB–S3 정합성](./cluverse/image-processing-db-s3-consistency/) |
+| [Cluverse](./cluverse/) | [게시글 목록 조회 설계 및 개선](./cluverse/post-list-query-optimization/)<br>[게시글 조회수 DB 동시성 및 성능 개선](./cluverse/post-view-count-db-optimization/)<br>[게시글 조회수 Redis 집계와 전체 카운터 설계](./cluverse/post-view-count-redis-counter/)<br>[게시판별 기준의 준실시간 인기글 승격](./cluverse/board-aware-popular-post-promotion/)<br>[n-depth 댓글의 요청 비용 제한과 경로 조회](./cluverse/bounded-comment-tree-pagination/)<br>[로컬맵 외부 장소 검증과 트랜잭션 분리](./cluverse/local-map-async-place-verification/)<br>[이미지 처리 병렬화와 DB–S3 정합성](./cluverse/image-processing-db-s3-consistency/) |
 
 ## 디렉터리 구조
 
